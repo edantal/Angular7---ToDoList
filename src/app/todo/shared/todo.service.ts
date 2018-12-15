@@ -4,7 +4,7 @@ import { AngularFireDatabase, AngularFireList } from 'angularfire2/database';
 @Injectable({
   providedIn: 'root'
 })
-export class TodoService {
+export class ToDoService {
   toDoList: AngularFireList<any>;
 
   constructor(private firebasedb: AngularFireDatabase) { }
